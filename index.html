@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vapes descartáveis em Lisboa para adultos: vape descartável, cigarro eletronico, sabores de vape, opções sem nicotina quando disponíveis e modelos para vapers no vape shop Vapelisabon.pt.">
+    <meta property="og:title" content="Vapes descartáveis em Lisboa | Vapelisabon.pt">
+    <meta property="og:description" content="Descubra vapes, vape descartável e cigarro eletrónico descartável para adultos em Portugal, com vários sabores de vape e informação clara sobre nicotina.">
+    <title>Vapes descartáveis em Lisboa | cigarro eletronico e vape shop</title>
+    <meta name="keywords"
+        content="cigarro eletronico, vape, vapes, vap, vape portugal, vape descartável, vaper, vapers, vapping, vape shop, sabores de vape, vape descartaveis, cigarro eletrónico descartável, sem nicotina, vapes descartáveis Lisboa">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" />
+    <link rel="shortcut icon" href="favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+</head>
+
+<body>
+    <!-- Age Verification Modal -->
+    <div id="ageModal" class="modal">
+        <div class="modal-content">
+            <h2>Tem 18 anos ou mais?</h2>
+            <div class="buttons">
+                <button id="yesBtn">Sim</button>
+                <button id="noBtn">Não</button>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="warn">ADVERTÊNCIA: ESTE PRODUTO CONTÉM NICOTINA. A NICOTINA É UMA SUBSTÂNCIA VICÍANTE.</h1>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="images/logo-vapelisabon-vape-descartavel-portugal.png"
+                            alt="Logotipo Vapelisabon.pt - vape descartável e cigarro eletronico para adultos">
+                    </div>
+                </a>
+
+                <nav class="nav-desktop">
+                    <a href="https://vapeportugal.pt/" class="nav-link active">Página Inicial</a>
+                    <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="nav-link">Produtos</a>
+                    <a href="https://vapeportugal.pt/pages/sobre-nos" class="nav-link">Sobre n?s</a>
+                    <a href="https://vapeportugal.pt/blogs/vapes-descartaveis-em-portugal" class="nav-link">Blog</a>
+                    <a href="https://vapeportugal.pt/pages/contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="btn-secondary">COMPRAR AGORA</a>
+                    <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="btn-primary">Ver mais</a>
+                </div>
+
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <a href="https://vapeportugal.pt/" class="mobile-nav-link active">Página Inicial</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="mobile-nav-link">Produtos</a>
+            <a href="https://vapeportugal.pt/pages/sobre-nos" class="mobile-nav-link">Sobre n?s</a>
+            <a href="https://vapeportugal.pt/blogs/vapes-descartaveis-em-portugal" class="mobile-nav-link">Blog</a>
+            <a href="https://vapeportugal.pt/pages/contacto" class="mobile-nav-link">Contacto</a>
+            <div class="mobile-actions">
+                <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="btn-secondary">COMPRAR AGORA</a>
+                <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="btn-primary">Ver mais</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="hero-badge">
+                        <span class="icon">!</span>
+                        <span>Vapes em Lisboa</span>
+                    </div>
+                    <h1 class="hero-title">COMPRAR VAPES DESCARTÁVEIS <br> EM LISBOA</h1>
+                    <div class="hero-buttons">
+                        <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal" class="btn-hero-primary">COMPRAR AGORA</a>
+                        <a href="https://vapeportugal.pt/collections/liquidacao-vapes-descartaveis-portugal" class="btn-hero-secondary">Melhores preços</a>
+                    </div>
+                    <p class="hero-subtitle">Vape descartável para adultos, com muitos puffs, sabores de vape e experiência consistente.</p>
+                    <p class="hero-subtitle">Marcas populares:</p>
+                    <div class="hero-tags">
+                        <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="tag">VAPSOLO</a>
+                        <a href="https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal" class="tag">JNR</a>
+                        <a href="https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal" class="tag">FUMOT</a>
+                        <a href="https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal" class="tag">MERRMYI</a>
+                    </div>
+                </div>
+                <a href="https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal">
+                    <div class="hero-right">
+                        <img src="images/hero-fumot-leopard-pro-lisboa-vape-descartavel-portugal.png"
+                            alt="Fumot Leopard Pro em Lisboa - vape descartável e cigarro eletronico para adultos">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MerryMi Section -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Vapes Descartáveis VapSolo</h2>
+            <div class="featured-grid">
+                <div class="featured-card large">
+                    <img src="images/products/vapsolo-master-70k-vape-descartavel-portugal.png"
+                        alt="VapSolo Master 70K Portugal Vape Descartável Lemon Lime 70000 puffs - cigarro eletrónico descartável sabores de vape">
+                    <span class="product-badge">NOVIDADE</span>
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">VapSolo Master 70K</h3>
+                        <p class="card-description">Vapes descartáveis selecionados, com envio grátis e até 70000 puffs.</p>
+                        <a href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal" class="btn-cta">COMPRAR
+                            AGORA</a>
+                    </div>
+                </div>
+                <div class="featured-card medium">
+                    <img src="images/products/vapsolo-king-pro-40k-vape-descartavel-portugal.png"
+                        alt="VapSolo King Pro 40K Portugal Vape Descartável Love 66 40000 puffs - vape descartável puff intenso">
+                    <span class="product-badge">NOVIDADE</span>
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">VapSolo King Pro 40K</h3>
+                        <a href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal"
+                            class="btn-cta">COMPRAR
+                            AGORA</a>
+                    </div>
+                </div>
+                <div class="featured-card medium">
+                    <img src="images/products/vapsolo-mars-50k-vape-descartavel-portugal.png"
+                        alt="VapSolo Mars 50K Portugal Vape Descartável Black Ice Dragon Fruit - muitos puffs puffs intensos">
+                    <span class="product-badge">NOVIDADE</span>
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">VapSolo Mars 50K</h3>
+                        <a href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal" class="btn-cta">COMPRAR
+                            AGORA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JNR Section -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vapes Descartáveis JNR</h2>
+                <div class="section-actions">
+                    <a href="https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal" class="filter-btn">Ver mais</a>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/jnr-quads-120k-vape-descartavel-portugal.png"
+                            alt="JNR Quads 4 em 1 120K Portugal Vape Descartável 120000 puffs - vapes descartáveis cigarro eletrónico">
+                        <span class="product-badge">NOVIDADE</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">JNR Quads 4 em 1 120K</h3>
+                        <p class="product-description"> Vapes Descartáveis</p>
+                        <div class="product-footer">
+                            <span class="product-price">120000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/jnr-quads-120k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/jnr-leopard-40k-vape-descartavel-portugal.png"
+                            alt="JNR Leopard 40K Portugal Vape Descartável Blueberry On Ice 40000 puffs - sabores de vape vape com nicotina">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">JNR Leopard 40K</h3>
+                        <p class="product-description">Vapes Descartáveis</p>
+                        <div class="product-footer">
+                            <span class="product-price">40000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/jnr-leopard-40k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal.png"
+                            alt="JNR Shisha Hookah Max 22K Portugal Vape Descartável Blue Razz Cherry 22000 puffs - puff vapes descartáveis">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">JNR Shisha Hookah Max 22K</h3>
+                        <p class="product-description">Vapes Descartáveis</p>
+                        <div class="product-footer">
+                            <span class="product-price">22000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fumot Title -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS FUMOT</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fumot Section -->
+    <section class="small-products">
+        <div class="container">
+            <div class="small-products-grid">
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/fumot-eco-50k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/fumot-eco-2w1-50k-vape-descartavel-portugal.png"
+                                alt="Fumot Eco 2 em 1 50K Portugal Vape Descartável Banana Ice Black Dragon Ice 50000 puffs - cigarro eletrónico descartável">
+                            <span class="small-product-label">50000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Fumot Eco 2 em 1 50K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/fumot-eco-50k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/fumot-leopard-40k-vape-descartavel-portugal.png"
+                                alt="Fumot Leopard 40K Portugal Vape Descartável Blueberry Cherry Cranberry 40000 puffs - vape descartável muitos puffs">
+                            <span class="small-product-label">40000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Fumot Leopard 40K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/fumot-digital-box-12k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/fumot-digital-box-12k-vape-descartavel-portugal.png"
+                                alt="Fumot Digital Box 12K Portugal Vape Descartável Blueberry Raspberry 12000 puffs - vape com nicotina puffs">
+                            <span class="small-product-label">12000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Fumot Digital Box 12K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/fumot-digital-box-12k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR
+                                AGORA</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Vapes Descartáveis MerryMi</h2>
+            <div class="featured-grid">
+                <div class="featured-card large">
+                    <img src="images/products/merrymi-panda-twins-40k-vape-descartavel-portugal.jpg"
+                        alt="MerryMi Panda Twins 40K Portugal Vape Descartável Feijoa Orange Kiwi Ice 40000 puffs - sabores de vape vapes descartáveis">
+                    <span class="product-badge">NOVIDADE</span>
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">MerryMi Panda Twins 40K</h3>
+                        <p class="card-description">Vapes descartáveis selecionados, com envio grátis e até 40000 puffs.</p>
+                        <a href="https://vapeportugal.pt/products/merrymi-panda-twins-40k-vape-descartavel-portugal"
+                            class="btn-cta">COMPRAR AGORA</a>
+                    </div>
+                </div>
+                <div class="featured-card medium">
+                    <img src="images/products/merrymi-kitty-20k-vape-descartavel-portugal.png"
+                        alt="MerryMi Kitty 20K Portugal Vape Descartável Pine Needle Berry Mint 20000 puffs - puff vape descartável">
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">MerryMi Kitty 20K</h3>
+                        <a href="https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal" class="btn-cta">COMPRAR
+                            AGORA</a>
+                    </div>
+                </div>
+                <div class="featured-card medium">
+                    <img src="images/products/merrymi-mecha-x-28k-vape-descartavel-portugal.png"
+                        alt="MerryMi Mecha X 28K Portugal Vape Descartável Dragon Fruit Ice 28000 puffs - many puffs puffs vaper">
+                    <div class="card-content">
+                        <span class="card-tag">Vapes Descartáveis</span>
+                        <h3 class="card-title">MerryMi Mecha X 28K</h3>
+                        <a href="https://vapeportugal.pt/products/merrymi-mecha-x-28k-vape-descartavel-portugal" class="btn-cta">COMPRAR
+                            AGORA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adalya Section -->
+    <section class="products products-2">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vapes Descartáveis Adalya</h2>
+                <div class="section-actions">
+                    <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" class="filter-btn">Ver
+                        mais</a>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/adalya-adl-pro360-20k-vape-descartavel-portugal.png"
+                            alt="Adalya ADL PRO360 20K Portugal Vape Descartável Watermelon ice 20000 puffs - cigarro eletrónico descartável">
+                        <span class="product-badge">NOVIDADE</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Adalya AD-PRO360 20K</h3>
+                        <p class="product-description">Vapes Descartáveis</p>
+                        <div class="product-footer">
+                            <span class="product-price">20000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/adalya-aurora-40k-vape-descartavel-portugal.png"
+                            alt="Adalya Aurora 40K Portugal Vape Descartável Love 66 40000 puffs - vapes descartáveis sabores de vape">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Adalya Aurora 40K</h3>
+                        <p class="product-description">Vapes Descartáveis</p>
+                        <div class="product-footer">
+                            <span class="product-price">10000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/adalya-adl16000-16k-vape-descartavel-portugal.png"
+                            alt="Adalya 16K Portugal Vape Descartável English Lord 16000 puffs - vape com nicotina puff">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Adalya ADL16000 16K</h3>
+                        <p class="product-description">Vape Descartável</p>
+                        <div class="product-footer">
+                            <span class="product-price">16000 Puffs</span>
+                            <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal"
+                                class="btn-product">COMPRAR AGORA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AL Fakher Title -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS AL FAKHER</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- AL Fakher Section -->
+    <section class="small-products">
+        <div class="container">
+            <div class="small-products-grid">
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-e-hose-x-60k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/al-fakher-crown-bar-ehose-x-60k-vape-descartavel-portugal.png"
+                                alt="Al Fakher Crown Bar EHose X 60K Portugal Vape Descartável berry ice 60000 puffs - muitos puffs vaper">
+                            <span class="small-product-label">60000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Al Fakher Crown Bar EHose X 60K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-e-hose-x-60k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-8k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/al-fakher-crown-bar-8k-vape-descartavel-portugal.png"
+                                alt="Al Fakher Crown Bar 8K Portugal Vape Descartável gum flavour 8000 puffs - vape descartável puffs">
+                            <span class="small-product-label">8000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Al Fakher Crown Bar 8K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-8k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-hypermax-15k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/al-fakher-hypermax-15k-vape-descartavel-portugal.png"
+                                alt="Al Fakher HyperMax 15K Portugal Vape Descartável black currant ice 15000 puffs - cigarro eletrónico descartável">
+                            <span class="small-product-label">15000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Al Fakher Crown Bar HyperMax 15K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/al-fakher-crown-bar-hypermax-15k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blur Section -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS BLUR</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="detail-header">
+                <span class="breadcrumb">Vapes Descartáveis > Blur</span>
+                <div class="detail-actions">
+                    <a href="https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal" class="btn-secondary">Ver
+                        mais</a>
+                    <a href="https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal" class="btn-primary">COMPRAR
+                        AGORA</a>
+                </div>
+            </div>
+
+            <div class="detail-content">
+                <div class="detail-left">
+                    <div class="detail-main-image">
+                        <img src="images/products/blur-15000-15k-vape-descartavel-portugal.png"
+                            alt="Blur 15000 15K Portugal Vape Descartável Watermelon Ice 15000 puffs - sabores de vape vape com nicotina">
+                    </div>
+                    <div class="detail-thumbnails">
+                        <img src="images/products/blur-30000-30k-vape-descartavel-portugal.png"
+                            alt="Blur 30000 30K Portugal Vape Descartável Cherry Cola Summer Peach Ice Strawberry Banana 30000 puffs - vape descartável muitos puffs"
+                            data-title="Vape descartável Blur 30000 30K" data-puffs="30000 Puffs"
+                            data-battery="1000mAh (Type-C)" data-liquid="25ml e-líquido"
+                            data-link="https://vapeportugal.pt/products/blur-30k-vape-descartavel-portugal"
+                            data-desc="Blur 30K é o modelo mais avançado, com Triple Flavour Mode para alternar entre três aromas intensos.">
+                        <img src="images/products/blur-20000-20k-vape-descartavel-portugal.png"
+                            alt="Blur 20000 20K Portugal Vape Descartável Blueberry Raspberry Strawberry Ice 20000 puffs - puff intenso vape com nicotina" data-title="Vape descartável Blur 20000 20K"
+                            data-puffs="20000 Puffs" data-battery="850mAh (Type-C)" data-liquid="20ml e-líquido"
+                            data-link="https://vapeportugal.pt/products/blur-20k-vape-descartavel-portugal"
+                            data-desc="Blur 20K permite escolher dois sabores num só dispositivo graças ao modo Dual Mesh Coil.">
+                        <img src="images/products/blur-15000-15k-vape-descartavel-portugal.png"
+                            alt="Blur 15000 15K Portugal Vape Descartável Watermelon Ice 15000 puffs - cigarro eletrónico descartável sabores de vape"
+                            data-title="Vape descartável Blur 15000 15K" data-puffs="15000 Puffs"
+                            data-battery="550mAh (Type-C)" data-liquid="16ml e-líquido"
+                            data-link="https://vapeportugal.pt/products/blur-15k-vape-descartavel-portugal"
+                            data-desc="Blur 15000 é um modelo premium com ecrã Smart Display e um design elegante e simples.">
+                    </div>
+                </div>
+
+                <div class="detail-right">
+                    <h2 id="detailTitle" class="detail-title">Vape descartável Blur 30000 30K</h2>
+                    <div class="detail-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">4.9 (1.850 avaliações)</span>
+                    </div>
+                    <p id="detailDesc" class="detail-description">Blur 30K é o modelo mais avançado, com Triple Flavour Mode para alternar entre três aromas intensos.</p>
+
+                    <div class="detail-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Puffs:</span>
+                            <span id="detailPuffs" class="spec-value">30000 Puffs</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Bateria:</span>
+                            <span id="detailBattery" class="spec-value">1000mAh (Type-C)</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Capacidade:</span>
+                            <span id="detailLiquid" class="spec-value">25ml e-líquido</span>
+                        </div>
+                    </div>
+
+                    <a id="buyNowBtn" href="https://vapeportugal.pt/products/blur-30k-vape-descartavel-portugal"
+                        class="btn-buy-large">COMPRAR AGORA</a>
+                    <span class="delivery-info">Envio grátis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ghost Title -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS GHOST</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ghost Section -->
+    <section class="small-products">
+        <div class="container">
+            <div class="small-products-grid">
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/ghost-galaxy-25k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/ghost-galaxy-25k-vape-descartavel-portugal.png"
+                                alt="Ghost Galaxy 25K Portugal Vape Descartável Aussie Lemonade 25000 puffs - vapes descartáveis sabores de vape">
+                            <span class="small-product-label">25000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Ghost Galaxy 25K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/ghost-galaxy-25k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/ghost-smart-vape-40k-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/ghost-smart-vape-40k-vape-descartavel-portugal.png"
+                                alt="Ghost Smart Vape 40K Portugal Vape Descartável Cherry Watermelon Freeze 40000 puffs - puff intenso vape descartável">
+                            <span class="small-product-label">40000 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Ghost Smart Vape 40K</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/ghost-smart-vape-40k-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="small-product big">
+                    <a href="https://vapeportugal.pt/products/ghost-pro-3500-vape-descartavel-portugal">
+                        <div class="small-product-image">
+                            <img src="images/products/ghost-pro-3500-vape-descartavel-portugal.png"
+                                alt="Ghost Pro 3500 Portugal Vape Descartável Pineapple Grapefruit 3500 puffs - cigarro eletrónico puffs">
+                            <span class="small-product-label">3500 Puffs</span>
+                        </div>
+                        <div class="small-product-info">
+                            <h1 class="small-product-title">Ghost Pro 3500</h1>
+                            <p class="small-product-buchow">Vapes Descartáveis</p>
+                            <a href="https://vapeportugal.pt/products/ghost-pro-3500-vape-descartavel-portugal"
+                                class="btn-cta">COMPRAR AGORA</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hayati Title -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS HAYATI</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hayati Section -->
+    <section class="hayati-section">
+        <div class="container">
+            <div class="hayati-grid">
+                <div class="hayati-card">
+                    <a href="https://vapeportugal.pt/products/hayati-twist-5k-vape-descartavel-portugal">
+                        <div class="hayati-image">
+                            <img src="images/products/hayati-twist-5k-vape-descartavel-portugal.png"
+                                alt="Hayati Twist 5K Portugal Vape Descartável Blue Sour Raspberry 5000 puffs - vape com nicotina vapes descartáveis">
+                            <span class="hayati-badge">5000 PUFFS</span>
+                        </div>
+                        <div class="hayati-info">
+                            <h3 class="hayati-title">Hayati Twist 5000</h3>
+                            <p class="hayati-desc">Vapes Descartáveis</p>
+                            <span class="btn-hayati">COMPRAR AGORA</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="hayati-card">
+                    <a href="https://vapeportugal.pt/products/hayati-pro-ultra-15k-vape-descartavel-portugal">
+                        <div class="hayati-image">
+                            <img src="images/products/hayati-pro-ultra-15k-vape-descartavel-portugal.png"
+                                alt="Hayati Pro Ultra 15K Portugal Vape Descartável Cherry Ice Peach Mango 15000 puffs - muitos puffs puff">
+                            <span class="hayati-badge">15000 PUFFS</span>
+                        </div>
+                        <div class="hayati-info">
+                            <h3 class="hayati-title">Hayati Pro Ultra 15K</h3>
+                            <p class="hayati-desc">Vapes Descartáveis</p>
+                            <span class="btn-hayati">COMPRAR AGORA</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="hayati-card">
+                    <a href="https://vapeportugal.pt/products/hayati-pro-max-4k-vape-descartavel-portugal">
+                        <div class="hayati-image">
+                            <img src="images/products/hayati-pro-max-4k-vape-descartavel-portugal.png"
+                                alt="Hayati Pro Max 4K Portugal Vape Descartável Blue Fusion 4000 puffs - cigarro eletrónico descartável">
+                            <span class="hayati-badge">4000 PUFFS</span>
+                        </div>
+                        <div class="hayati-info">
+                            <h3 class="hayati-title">Hayati Pro Max 4000</h3>
+                            <p class="hayati-desc">Vapes Descartáveis</p>
+                            <span class="btn-hayati">COMPRAR AGORA</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vozol Title -->
+    <section class="same-section">
+        <div class="container">
+            <div class="same-header">
+                <span class="subtitle">VAPES DESCARTÁVEIS VOZOL</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vozol Section -->
+    <section class="vozol-section">
+        <div class="container">
+            <div class="vozol-wide-item">
+                <div class="vozol-image">
+                    <img src="images/products/vozol-rave-40k-vape-descartavel-portugal.png"
+                        alt="Vozol Rave 40K Portugal Vape Descartável Blueberry Watermelon 40000 puffs - sabores de vape vapes descartáveis">
+                </div>
+                <div class="vozol-info">
+                    <div class="vozol-tag">Vapes Descartáveis</div>
+                    <h2 class="vozol-title">Vozol Rave 40000 Puffs</h2>
+                    <p class="vozol-text">Nova geração com ecrã inteligente e sistema dual mesh. Sabor moderno em cada puff.</p>
+                    <div class="vozol-specs">
+                        <span>Dual Mesh</span>
+                        <span>Smart Screen</span>
+                    </div>
+                    <a href="https://vapeportugal.pt/products/vozol-rave-40k-vape-descartavel-portugal" class="btn-vozol">COMPRAR
+                        AGORA</a>
+                </div>
+            </div>
+
+            <div class="vozol-wide-item reversed">
+                <div class="vozol-image">
+                    <img src="images/products/vozol-gear-power-20k-vape-descartavel-portugal.png"
+                        alt="Vozol Gear Power 20K Portugal Vape Descartável Cherry Lemonade 20000 puffs - vape descartável puff">
+                </div>
+                <div class="vozol-info">
+                    <div class="vozol-tag">Vapes Descartáveis</div>
+                    <h2 class="vozol-title">Vozol Gear Power 20000 Puffs</h2>
+                    <p class="vozol-text">Potência compacta na sua mão. A tecnologia S.i.l.c oferece um perfil de sabor mais definido.</p>
+                    <div class="vozol-specs">
+                        <span>Power Mode</span>
+                        <span>Gear Shield</span>
+                    </div>
+                    <a href="https://vapeportugal.pt/products/vozol-gear-power-20k-vape-descartavel-portugal" class="btn-vozol">COMPRAR
+                        AGORA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spaceman Section -->
+    <section class="spaceman-section">
+        <div class="container">
+            <div class="spaceman-card">
+                <div class="spaceman-content">
+                    <div class="spaceman-header">
+                        <span class="spaceman-badge">Vapes Descartáveis</span>
+                        <h1 class="spaceman-title">Spaceman SP40000</h1>
+                        <p class="spaceman-subtitle">Experiência de sabor com 40 000 puffs</p>
+                    </div>
+
+                    <div class="spaceman-features">
+                        <div class="s-feature">
+                            <span class="icon">!</span>
+                            <div class="text">
+                                <strong>40K Puffs</strong>
+                                <p>Potência máxima</p>
+                            </div>
+                        </div>
+                        <div class="s-feature">
+                            <span class="icon">!</span>
+                            <div class="text">
+                                <strong>Smart Battery</strong>
+                                <p>Indicador em tempo real</p>
+                            </div>
+                        </div>
+                        <div class="s-feature">
+                            <span class="icon">!</span>
+                            <div class="text">
+                                <strong>AI Chip</strong>
+                                <p>Potência estável</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spaceman-actions">
+                        <a href="https://vapeportugal.pt/products/smok-spaceman-sp40000-40k-vape-descartavel-portugal"
+                            class="btn-spaceman">COMPRAR AGORA</a>
+                        <span class="price-tag">40000 Puffs</span>
+                    </div>
+                </div>
+
+                <div class="spaceman-visual">
+                    <div class="spaceman-glow"></div>
+                    <img src="images/products/smok-spaceman-40k-vape-descartavel-portugal.png"
+                        alt="Smok SPACEMAN 40K Portugal Vape Descartável Blueberry Bubble Gum 40000 puffs - cigarro eletrónico descartável">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Descriptions Section -->
+    <section class="description-section" id="description">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Produtos</h2>
+                    <div class="section-header-line"></div>
+                </div>
+            </div>
+
+            <div class="description-grid">
+                <div class="description-card">
+                    <h1>MerryMi Panda X 40K</h1>
+                    <p>Vape descartável com 40000 puffs, desempenho consistente e composição indicada pelo fabricante. Uma opção para adultos que procuram vape com nicotina de longa duração e sabor estável.</p>
+                </div>
+
+                <div class="description-card">
+                    <h1>JNR Falcon Pro 28K</h1>
+                    <p>Vape descartável com 28000 puffs e composição indicada pelo fabricante. Equilíbrio entre potência, autonomia e utilização prática para adultos.</p>
+                </div>
+
+                <div class="description-card">
+                    <h1>Fumot Leopard 40K</h1>
+                    <p>Vape descartável com 40000 puffs, design premium e puff consistente. Combina tecnologia avançada com sabores de vape intensos.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Adalya Aurora 40K</h1>
+                    <p>Vape descartável de 40000 puffs com ecrã LED, bateria robusta e um perfil aromático inspirado em shishas clássicas.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Ghost Galaxy 25K</h1>
+                    <p>Vape descartável premium com 25000 puffs, ecrã e bom desempenho. Design elegante e sabor definido.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Hayati Twist 5K</h1>
+                    <p>Vape descartável moderno com sistema Twist para mudar de sabor em segundos. Duas câmaras de e-líquido para maior variedade.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Blur 30K</h1>
+                    <p>Modelo avançado com Triple Flavour Mode. Até 30000 puffs e troca rápida de aromas com alta intensidade.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Crown Bar HyperMax 15K</h1>
+                    <p>Uma evolução no cigarro eletrónico descartável, com sistema de pods intercambiáveis e até 15000 puffs.</p>
+                </div>
+
+                <div class="description-card hidden">
+                    <h1>Spaceman SP40000</h1>
+                    <p>Vape descartável com composição indicada pelo fabricante, dupla Mesh Coil, ecrã LED e modos de potência para ajustar cada puff.</p>
+                </div>
+            </div>
+
+            <div class="show-more-container">
+                <button class="btn btn-primary show-more-btn" id="showMoreBtn">Ver mais →</button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="social">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                    <img src="images/logo-vapelisabon-vape-descartavel-portugal.png" alt="Logotipo Vapelisabon.pt - vape descartável e cigarro eletronico para adultos" />
+                </a>
+            </div>
+            <div>
+                <a href="https://vapeportugal.pt/pages/contacto">
+                    <svg viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z">
+                            </path>
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <a href="https://vapeportugal.pt/pages/contacto">
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                        viewBox="0 0 14.906 32" height="40px">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <a href="https://vapeportugal.pt/pages/contacto">
+                    <svg viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: transparent;
+                                        stroke: rgba(255, 255, 255, 0.842);
+                                        stroke-miterlimit: 10;
+                                        stroke-width: 1.89px;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="cls-1"
+                                d="M12.94,1.61V15.78a2.83,2.83,0,0,1-2.83,2.83h0a2.83,2.83,0,0,1-2.83-2.83h0a2.84,2.84,0,0,1,2.83-2.84h0V9.17h0A6.61,6.61,0,0,0,3.5,15.78h0a6.61,6.61,0,0,0,6.61,6.61h0a6.61,6.61,0,0,0,6.61-6.61V9.17l.2.1a8.08,8.08,0,0,0,3.58.84h0V6.33l-.11,0a4.84,4.84,0,0,1-3.67-4.7H12.94Z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-cont">
+            <div class="foot-cont-one">
+                <div class="cont-col">
+                    <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Produtos</a>
+                    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo</a>
+                    <a href="https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal">JNR</a>
+                    <a href="https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal">Fumot</a>
+                    <a href="https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal">MerryMi</a>
+                    <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya</a>
+                    <a href="https://vapeportugal.pt/collections/al-fakher-vapes-descartaveis-portugal">AlFakher</a>
+                    <a href="https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal">Blur</a>
+                    <a href="https://vapeportugal.pt/collections/ghost-vapes-descartaveis-portugal">Ghost</a>
+                    <a href="https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal">Hayati</a>
+                    <a href="https://vapeportugal.pt/collections/vozol-vapes-descartaveis-portugal">Vozol</a>
+                    <a href="https://vapeportugal.pt/collections/smok-spaceman-vapes-descartaveis-portugal">Spaceman</a>
+                </div>
+                <div class="cont-col">
+                    <a href="https://vapeportugal.pt/" class="active">Página Inicial</a>
+                    <a href="https://vapeportugal.pt/pages/sobre-nos">Sobre n?s</a>
+                    <a href="https://vapeportugal.pt/pages/contacto">Contacto</a>
+                    <a href="https://vapeportugal.pt/blogs/vapes-descartaveis-em-portugal">Blog</a>
+                    <a href="https://vapeportugal.pt/pages/perguntas-frequentes">FAQ</a>
+                </div>
+            </div>
+            <div class="foot-cont-two">
+                <div>
+                    <svg class="contact-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M20 4H4C2.897 4 2 4.897 2 6V18C2 19.103 2.897 20 4 20H20C21.103 20 22 19.103 22 18V6C22 4.897 21.103 4 20 4ZM20 6L12 11L4 6H20ZM4 18V8L12 13L20 8V18H4Z" />
+                    </svg>
+                    <p>info@vapelisabon.pt</p>
+                </div>
+                <div>
+                    <svg class="contact-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79C8.06 13.74 10.26 15.94 13.21 17.38L15.41 15.18C15.8 14.79 16.37 14.66 16.85 14.82C18.27 15.28 19.8 15.5 21.38 15.5C21.83 15.5 22.18 15.85 22.18 16.3V21.5C22.18 21.95 21.83 22.3 21.38 22.3C10.54 22.3 2.7 14.46 2.7 3.62C2.7 3.17 3.05 2.82 3.5 2.82H8.7C9.15 2.82 9.5 3.17 9.5 3.62C9.5 5.2 9.72 6.73 10.18 8.15C10.34 8.63 10.21 9.2 9.82 9.59L7.62 11.79Z" />
+                    </svg>
+                    <p>+351 000 000 000</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-cont-three">
+            <div class="city">
+                <p id="city">Vapes descartáveis em Portugal</p>
+            </div>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Lisboa</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Porto</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Vila Nova de Gaia</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Amadora</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Braga</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Setúbal</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Coimbra</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Funchal</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Almada</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Queluz</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Agualva-Cacém</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Cacém</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Aveiro</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Viseu</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Leiria</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Faro</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Évora</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Guimarães</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Barreiro</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Matosinhos</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Odivelas</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Maia</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Vila Franca de Xira</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Loures</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Cascais</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Sintra</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Torres Vedras</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Póvoa de Varzim</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Viana do Castelo</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Portimão</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Loulé</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Castelo Branco</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Santarém</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Beja</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Bragança</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Guarda</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Tomar</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Lagos</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Chaves</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Covilhã</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Penafiel</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Figueira da Foz</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Ponta Delgada</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Angra do Heroísmo</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Vila Real</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Estoril</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Oeiras</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Montijo</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Seixal</a>
+            <a href="https://vapeportugal.pt/collections/vapes-descartaveis-portugal">Vapes descartáveis em Tavira</a>
+        </div>
+        <div class="copyright">
+            <p>© <span id="year"></span> Vapelisabon.pt - Vapes descartáveis em Portugal.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
